@@ -11,7 +11,7 @@ import base64
 import time
 import errno
 import select
-import rtcm3
+from ntrip_client.submodules import rtcm3
 import ssl
 from optparse import OptionParser
 

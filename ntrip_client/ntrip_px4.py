@@ -1,6 +1,6 @@
 import rclpy
 from rclpy.node import Node
-import ntrip
+from ntrip_client.submodules import ntrip
 from px4_msgs.msg import GpsInjectData
 
 class NtripRosNode(Node):
